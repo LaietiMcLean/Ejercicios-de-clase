@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario de contacto</h2>
+
+<form autocomplete="off" action="https://reqres.in/api/users" method="post"> <!--Se supone que si le pones autocomplete no se automcompletará en el navegador // La URL puesta es sólo para ver cómo se registran los datos-->
+<fieldset> <!--SIrve para agrupar elementos dentro de cajas, pueden haber varios-->
+    <legend>Datos personales:</legend> <!--LEGEND es útil a la hora de darle nombre o etiquetar un grupo hecho con FIELDSET. Incluye sencillamente una nota explicativa sobre qué tipo de información se está amontonando en el recuadro-->
+    <label for="fname">Nombre:</label>
+    <input type="text" id="fname" name="fname" required/> <br/><br/>
+
+    <label for="lname">Apellido:</label>
+    <input type="text" id="lname" name="lname" required/> <br/><br/>
+
+    <label for="udate">Fecha de nacimiento:</label>
+    <input type="date" id="udate" name="udate"/> <br/><br/>
+
+    <label for="location">Selecciona tu ciudad:</label>
+    <select id="location" name="location">
+        <option value="madrid">Madrid</option>
+        <option value="newyork">New York</option>
+        <option value="castellon">Castellón</option>
+    </select><br/><br/>
+
+    <label for="user">Usuario:</label>
+    <input type="text" id="fname" name="user" placeholder="Mínimo 5 caracteres"
+    pattern="[A-Za-z0-9]{5,20}"/> 
+
+    <label for="uemail">Email:</label>
+    <input type="email" id="uemail" name="uemail"/> <br/><br/>
+
+    <label for="pwd">Contraseña:</label>
+    <input type="password" id="pwd" name="pwd" placeholder="Inserta 4-10 caracteres"
+    minlength="4"
+    maxlength="10"/> <br/><br/>
+
+    <label for="fcolor">Selecciona tu color favorito:</label>
+    <input type="color" id="fcolor" name="fcolor"/> <br/><br/>
+
+    <label for="message">Escribe aquí tu mensaje:</label><br/><br/>
+    <textarea id="message" name="message" placeholder="Escribe aquí" rows="10" cols="30"></textarea> <br/><br/>
+
+</fieldset>
+<br/>
+<fieldset>
+    <legend>Preferencias:</legend>
+    
+    <label for="vip">¿Quieres ser cliente VIP?</label>
+    <input type="checkbox" id="vip" name="vip"/><br/><br/>
+
+    <label for="favlang">Selecciona tu lenguaje de programación favorito:</label><br/>
+    <label for="html">
+        <input type="radio" id="html" name="favlang" value="html"/> HTML
+        <br/>
+    <label for="css">
+        <input type="radio" id="css" name="favlang" value="css"/> CSS 
+        <br/>
+    <label for="js">
+        <input type="radio" id="js" name="favlang" value="js"/> JavaScript
+
+    </label>
+    <br/><br/>
+    <button type="submit">Enviar</button>
+
+</fieldset>
+
+
+
+
+
+
+
+</form>
+
+</body>
+</html>
