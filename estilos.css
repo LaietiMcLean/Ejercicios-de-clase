@@ -41,12 +41,16 @@ section {
     background-color: #A5E6BA;
 }
 
+.subTit {
+    background-color: #A5E6BA;
+}
+
 .habProf {
     float: left;
     background-color: #7785ac;
     border-radius: 2%;
     text-align: left;
-    padding: 5%;
+    padding: 2%;
 }
 
 .habSoft {
@@ -54,7 +58,7 @@ section {
     background-color: #7785ac;
     border-radius: 2%;
     text-align: left;
-    padding: 5%;
+    padding: 2%;
 }
 
 
