@@ -102,18 +102,30 @@ footer {
     text-align: center;
     overflow: 1px solid rgba(0,0,0,0.16);
 
-}
-
-
-
+} 
 
 /********* PSEUDOCLASES ***************/
 
 .anchor-hover:hover {
-    background-color: #A5E6BA;
+    color: #360568;
+    background-color: #dff6e6;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+
+.anchor-hoverSub:hover {
+    color: #dff6e6;
+    background-color: #7785ac;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.anchor-hoverSubSub:hover {
+    color: #dff6e6;
+    background-color: #9AA4C1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+} 
 
 tr td:nth-child(2) {
     background-color: #9AA4C1;
