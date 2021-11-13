@@ -38,7 +38,6 @@ li {
 }
 
 
-
 footer {
     background-color: #9AC6C5;
     display: flex;
@@ -48,7 +47,8 @@ footer {
     margin-top: 1rem;
 }
 
-/********* CLASES ***************/
+
+/********* SELECTORES DE CLASES ***************/
 
 .avatar {
     background-color: #5b2a86;
@@ -69,6 +69,27 @@ footer {
 
 .subTit {
     background-color: #A5E6BA;
+}
+
+.cajaTabla {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    text-align: center;
+    overflow: 1px solid rgba(0,0,0,0.16);
+
+}
+
+th {
+    background-color: #360568;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+tr, td {
+    background-color: #7785ac;
+    width: 20rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 /********* PSEUDOCLASES ***************/
