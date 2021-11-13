@@ -4,8 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
 h1 {
-    background-color: #360568;
+    background-color: #1F033A;
     color: white;
     text-align: center;
 }
@@ -30,13 +31,32 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #A5E6BA;
+    background-color: #dff6e6;
+    margin: 0.5rem;
+    padding: 2rem;
+    
 }
 
 li {
     list-style-type: none;
 }
 
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #360568;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+tr, td {
+    background-color: #7785ac;
+    width: 20rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 
 footer {
     background-color: #9AC6C5;
@@ -60,10 +80,14 @@ footer {
 
 .cajaHabilidades {
     float: left;
-    background-color: #7785ac;
-    text-align: left;
+    background-color: #6776A2;
+    text-align: center;
+    box-sizing: content-box;
+    width: 25%;
     padding: 2%;
     margin: 2rem;
+    min-width: 25%;
+    min-height: 30%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -80,17 +104,8 @@ footer {
 
 }
 
-th {
-    background-color: #360568;
-    justify-content: center;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
 
-tr, td {
-    background-color: #7785ac;
-    width: 20rem;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
+
 
 /********* PSEUDOCLASES ***************/
 
@@ -98,4 +113,8 @@ tr, td {
     background-color: #A5E6BA;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+tr td:nth-child(2) {
+    background-color: #9AA4C1;
 }
