@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 /********* ETIQUETAS ***************/
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,11 +18,14 @@ h1 {
 
 nav {
     background-color: #9AC6C5;
-    display: flex;
+    display: inline-flex;
+    position: fixed;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
+    width: 100vw;
     padding: 0.7rem;
+    box-shadow: 0px 1px 15px #1F033A ;
+
 }
 
 a {

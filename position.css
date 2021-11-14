@@ -1,0 +1,29 @@
+body {
+    margin: 30px;;
+}
+
+.parent {
+    background-color: blue;
+    height: 250px;
+    width: 100%;
+    position: static;
+}
+
+.child1 {
+    background-color: goldenrod;
+    height: 70px;
+    width: 90%;
+}
+
+.child2 {
+    background-color: teal;
+    height: 70px;
+    width: 90%;
+}
+
+.child3 {
+    background-color: tomato;
+    height: 70px;
+    width: 90%;
+}
+
