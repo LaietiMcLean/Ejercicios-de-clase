@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/estilos.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet"/>
 </head>
 <body>
+    <nav>
+        <a class="anchor-hover" href="INICIO.html">Home</a>
+        <a class="anchor-hover">Sobre mí</a>
+        <a class="anchor-hover" href="formularios.html">Contacto</a> 
+    </nav>
+<div class="h2Formulario">
     <h2>Formulario de contacto</h2>
-
+</div>
+<div>
 <form autocomplete="off" action="https://reqres.in/api/users" method="post"> <!--Se supone que si le pones autocomplete no se automcompletará en el navegador // La URL puesta es sólo para ver cómo se registran los datos-->
 <fieldset> <!--SIrve para agrupar elementos dentro de cajas, pueden haber varios-->
     <legend>Datos personales:</legend> <!--LEGEND es útil a la hora de darle nombre o etiquetar un grupo hecho con FIELDSET. Incluye sencillamente una nota explicativa sobre qué tipo de información se está amontonando en el recuadro-->
@@ -47,7 +56,9 @@
     <textarea id="message" name="message" placeholder="Escribe aquí" rows="10" cols="30"></textarea> <br/><br/>
 
 </fieldset>
+</div>
 <br/>
+<div>
 <fieldset>
     <legend>Preferencias:</legend>
     
@@ -67,9 +78,9 @@
     </label>
     <br/><br/>
     <button type="submit">Enviar</button>
-
 </fieldset>
-
+</div>
+</section>
 
 
 
