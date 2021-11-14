@@ -85,14 +85,14 @@ footer {
     justify-content: center;
     box-sizing: content-box;
     width: 25%;
-    height: 300px;
+    height: auto;
     padding: 0.5rem;
     margin: 0.2rem;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .subCajaHabilidades {
-    border: solid 2px red;
+    border: solid 2px #9AA4C1;
 }
 
 .subTit {
